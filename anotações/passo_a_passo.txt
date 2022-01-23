@@ -1,0 +1,15 @@
+Passo a passo para fazer um commit:
+
+1°- faz o "git status" para ver se tem arquivo que não tá em Staged
+
+2° se aparecer "not staged", fazemos na linha seguinte:
+   git add *
+   
+3° faz o "git status"  novamente e verifica se os arquivos estão prontos para serem commitados.
+
+4° vamos commitar o arquivo: git commit -m "ESCREVO AQUI UMA MENSAGEM QUE INDICA O QUE É ESSA ALTERAÇÃO"
+
+5° Feito o commit, vamos subir para o repositório remoto:
+   5.1- adicono o caminho: git remote add origin https://github.com/ThiagoOAL/livro-receitas.git
+   5.2- para visualizar o caminho é: git remote -v
+   5.3- para subir o arquivo, faço: git push origin master
